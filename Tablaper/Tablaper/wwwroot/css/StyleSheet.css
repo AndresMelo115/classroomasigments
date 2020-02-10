@@ -1,0 +1,183 @@
+﻿body {
+}
+
+
+
+
+.Onometal{
+    border-style:solid;
+    width: 90px;
+    height: 50px;
+    display:inline-block;
+    text-align:center;
+    line-height: 50px;
+    margin: -3px;
+    color:white ;
+    font-size:15px;
+    font-weight: bold;
+    background-color:mediumseagreen;
+    border-color:black;
+    
+}
+
+.GasNob {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border-color: black;
+}
+
+.Alcalino {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: mediumpurple;
+    border-color: black;
+}
+
+.Alcalinoterreo {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: plum;
+    border-color: black;
+}
+
+.Metaloide {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: yellowgreen;
+    border-color: black;
+}
+
+.Halogeno {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cadetblue;
+    border-color: black;
+}
+.Otrometal {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: yellow;
+    border-color: black;
+}
+.Metalestrans {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: orange;
+    border-color: black;
+}
+.Actinido {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: indianred;
+    border-color: black;
+}
+.Lantinido {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: sandybrown;
+    border-color: black;
+}
+
+.White {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border-color: white;
+}
+
+.Nulled {
+    border-style: solid;
+    width: 90px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    margin: -3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: gray;
+    border-color: black;
+}
+

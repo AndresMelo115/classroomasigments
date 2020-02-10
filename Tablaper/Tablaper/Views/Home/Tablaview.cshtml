@@ -1,0 +1,86 @@
+﻿@*@model Tablaper.Models.Elementosp*@
+
+<link href="~/css/StyleSheet.css" rel="stylesheet" />
+
+<div>  </div>
+
+@foreach (var elementoper in ((List<Elementosp>)ViewBag.tablaperd))
+{
+    int jump = 0;
+
+        <div class=@elementoper.Css> @elementoper.Elemento </div> 
+
+    jump++;
+
+    if(jump == 18) {
+        <div>  </div>
+        jump = 0;
+    }
+    else{ }
+
+}
+
+        <div> <br /> </div>
+        <div class="Alcalino">Alcalinos</div>
+        <div class="Alcalinoterreo">Alcalinoterreos</div>
+        <div class="Metalestrans">Bloque D</div>
+        <div class="Lantinido" >Lantinidos</div>
+        <div class="Actinido">Actinidos</div>
+        <div class="Otrometal">Otro Metales</div>
+        <div class="Metaloide">Metaloides</div>
+        <div class="Onometal">Otros no metales</div>
+        <div class="Halogeno">Halogeno</div>
+        <div class="GasNob">Gases Nobles</div>
+
+@*<body>
+        <div></div>
+    <div>
+
+        @for (int i = 1; i <= 12; i++)
+        {
+            @for (int j = 1; j <= 12; j++)
+            {
+               <div class="grid-container"> @(i*j)</div>
+            }
+            <div></div>
+        }
+    </div>
+
+    </body>*@
+
+ @*int block = 0;
+
+    if (elementoper.Elemento == null)
+    {<div class="Nulled">  </div>}
+    else
+    {
+<div class=@elementoper.Css> @elementoper.Elemento </div>
+
+
+        if (elementoper.Elemento == "H")
+        {
+            while (block <= 15)
+            {
+<div class="White"><</div>
+                block++;
+            }
+        }
+        else { }
+        if (elementoper.Elemento == "Be")
+        {
+            while (block <= 9)
+            {
+<div class="White"><</div>
+                block++;
+            }
+        }
+        else { }
+        if (elementoper.Elemento == "Mg")
+        {
+            while (block <= 9)
+            {
+<div class="White"><</div>
+                block++;
+            }
+        }
+        else { }*@
